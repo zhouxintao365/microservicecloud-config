@@ -11,8 +11,8 @@ server:
   port: 7001	
 spring:
   profiles: dev
-    application: 
-      name: microservicecloud-config-eureka-client
+  application: 
+    name: microservicecloud-config-eureka-client
 
 
 eureka: 
@@ -31,8 +31,8 @@ server:
   port: 7001	#注册中心占用7001端口，冒号后面必须要有空格
 spring:
   profiles: test
-    application: 
-      name: microservicecloud-config-eureka-client
+  application: 
+    name: microservicecloud-config-eureka-client
 
 eureka: 
   instance:
