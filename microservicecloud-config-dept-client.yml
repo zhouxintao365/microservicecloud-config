@@ -10,7 +10,7 @@ server:
 spring:
   profiles: dev
     application: 
-       name: microservicecloud-config-dept-client 
+         name: microservicecloud-config-dept-client 
 
     datasource:
      type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
@@ -60,7 +60,7 @@ server:
 spring:
   profiles: test
     application: 
-      name: microservicecloud-config-dept-client 
+        name: microservicecloud-config-dept-client 
 
     datasource:
      type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
