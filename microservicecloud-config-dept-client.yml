@@ -9,8 +9,8 @@ server:
   port: 8001    
 spring:
   profiles: dev
-    application:
-        name: microservicecloud-config-dept-client 
+    application: 
+      name: microservicecloud-config-dept-client 
 
     datasource:
      type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
